@@ -12,7 +12,7 @@ urlpatterns = [
     # Users
     # Get the parameters that are entered through the url to execute 
     # the views according to the parameter
-    path('Ing/<int:year>', IndexController.index, name='index'),
+    path('', IndexController.index, name='index'),
 
     # Admin
     path('admin/', admin.site.urls),

@@ -7,5 +7,5 @@ from django.shortcuts import render, HttpResponse
 
 
 class IndexController():
-	def index(request,year):
-		return HttpResponse('<h1>Welcom ING, on year:</h1>%s' %year)
+	def index(request):
+		return render(request,'views/index/index.html')

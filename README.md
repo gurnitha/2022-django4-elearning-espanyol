@@ -107,3 +107,29 @@ http://127.0.0.1:8000/
 
 # NOTE: :)
 ```
+
+#### 3.2 Create Template Views
+
+```py
+
+# 1. Create folder
+λ mkdir templates\views\index
+
+# 2. Create file and add text
+λ touch templates\views\index\index.html
+
+# 3. Activating django template in settings.py
+'DIRS': [os.path.join(BASE_DIR, 'templates')],
+
+# 4. Modify IndexController, urls.py
+See the repository
+
+# Files: new/changed
+        modified:   README.md
+        modified:   Usuarios/Controllers/IndexController.py
+        modified:   Usuarios/settings.py
+        modified:   Usuarios/urls.py
+        new file:   templates/views/index/index.html
+
+# NOTE: :)
+```
