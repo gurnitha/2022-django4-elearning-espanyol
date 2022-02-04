@@ -157,3 +157,18 @@ See the repository
 
 # NOTE: :)
 ```
+
+#### 3.5 Modified index using include
+
+```py
+# Files: new/changed
+        renamed:    static/css/style.css -> static/css/custom.css
+        new file:   templates/views/default/footer.html
+        new file:   templates/views/default/header.html
+        modified:   templates/views/index/index.html
+
+# NOTE: :)
+```
+
+
+
