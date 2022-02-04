@@ -16,5 +16,5 @@ urlpatterns = [
     path('about/', IndexController.about, name='about'),
 
     # Admin
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name='login'),
 ]

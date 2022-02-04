@@ -277,5 +277,19 @@ from App.Controllers.IndexController import IndexController
 # NOTE: :)
 ```
 
+#### 3.10 Create login template
+
+```py
+
+# Files: new/changed
+        modified:   README.md
+        modified:   Usuarios/urls.py
+        new file:   static/css/login.css
+        new file:   templates/admin/login.html
+        modified:   templates/views/default/header.html
+
+# NOTE: :)
+```
+
 
 
