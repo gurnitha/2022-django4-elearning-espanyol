@@ -133,3 +133,13 @@ See the repository
 
 # NOTE: :)
 ```
+
+#### 3.3 Adding html template to index
+
+```py
+# Files: new/changed
+        modified:   README.md
+        modified:   templates/views/index/index.html
+
+# NOTE: :)
+```
