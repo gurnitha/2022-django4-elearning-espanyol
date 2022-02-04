@@ -324,6 +324,21 @@ from App.Controllers.IndexController import IndexController
 ```
 
 
+#### 4.2 Register models to admin and define model's display in admin panel
 
+```py
+
+
+# Files: new/changed
+
+        modified:   App/admin.py
+        modified:   README.md
+        modified:   Usuarios/settings.py
+        modified:   Usuarios/urls.py
+        new file:   media/images/curso/mobile-5.PNG
+        new file:   media/images/curso/samsung-tv.PNG
+
+# NOTE: :)
+```
 
 
