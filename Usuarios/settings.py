@@ -124,3 +124,9 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# 1. Defining the static folder in the project
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
+# 2. Defining the url to access the static files
+STATIC_URL = '/static/'

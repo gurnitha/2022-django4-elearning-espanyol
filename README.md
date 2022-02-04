@@ -143,3 +143,17 @@ See the repository
 
 # NOTE: :)
 ```
+
+#### 3.4 Add and load static files
+
+```py
+# Files: new/changed
+        modified:   README.md
+        modified:   Usuarios/settings.py
+        new file:   static/css/bootstrap-grid.css
+        ...
+        new file:   static/js/bootstrap.min.js
+        modified:   templates/views/index/index.html
+
+# NOTE: :)
+```
