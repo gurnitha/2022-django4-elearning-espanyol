@@ -5,7 +5,7 @@ Github repository: https://github.com/gurnitha/2022-django4-elearning-espanyol
 
 
 ### 1. INITIAL SETUP
-
+--------------------
 
 #### 1.1 Create and clone Github repository
 
@@ -45,4 +45,43 @@ Receiving objects: 100% (5/5), done.
 # Files: new/changed
 
         modified:   README.md
+```
+
+
+### 2. CREATE DJANGO PROJECT
+----------------------------
+
+#### 2.1 Create django project
+
+```py
+
+# 1.Create django projec
+(elearning-esp) λ django-admin startproject Usuarios .
+
+# 2. Run the server
+(elearning-esp) λ python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+February 04, 2022 - 08:38:46
+Django version 4.0, using settings 'Usuarios.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+# 3. Open the project in browser
+http://127.0.0.1:8000/
+
+# Files: new/changed
+
+        modified:   README.md
+        new file:   Usuarios/__init__.py
+        new file:   Usuarios/asgi.py
+        new file:   Usuarios/settings.py
+        new file:   Usuarios/urls.py
+        new file:   Usuarios/wsgi.py
+        new file:   manage.py
 ```
