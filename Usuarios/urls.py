@@ -8,6 +8,7 @@ from django.conf.urls.static import static
 
 # Locals
 from App.Controllers.IndexController import IndexController
+from App.Controllers.CursosController import CursosController
 
 urlpatterns = [
 
@@ -16,6 +17,9 @@ urlpatterns = [
     # the views according to the parameter
     path('', IndexController.index, name='index'),
     path('about/', IndexController.about, name='about'),
+
+    # Cursos
+    path('cursos', CursosController.index, name='cursos'),
 
     # Admin
     path('admin/', admin.site.urls, name='login'),

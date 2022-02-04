@@ -342,3 +342,21 @@ from App.Controllers.IndexController import IndexController
 ```
 
 
+### 5. LOAD AND DISPLAY THE COURSES
+-----------------------------------
+
+
+#### 5.1 Create CursosController, courses template and link
+
+```py
+
+# Files: new/changed
+        new file:   App/Controllers/CursosController.py
+        modified:   App/admin.py
+        modified:   README.md
+        modified:   Usuarios/urls.py
+        new file:   templates/views/cursos/cursos.html
+        modified:   templates/views/default/header.html
+
+# NOTE: :)
+```
