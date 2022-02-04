@@ -291,5 +291,18 @@ from App.Controllers.IndexController import IndexController
 # NOTE: :)
 ```
 
+#### 3.11 Modified login template
+
+```py
+
+# Files: new/changed
+        modified:   static/css/login.css
+        modified:   templates/admin/login.html
+
+# NOTE: :)
+```
+
+
+
 
 
