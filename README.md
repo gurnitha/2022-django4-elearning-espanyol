@@ -224,5 +224,26 @@ DATABASES = {
 # NOTE: :)
 ```
 
+#### 3.8 Create superuser and link to login to admin panel
+
+```py
+
+# 1. Create migrations
+(elearning-esp) λ python manage.py makemigrations
+No changes detected
+
+# 2. Apply migrations
+(elearning-esp) λ python manage.py migrate
+
+# 3. Create superuser
+(elearning-esp) λ python manage.py createsuperuser
+
+# Files: new/changed
+
+        modified:   templates/views/default/header.html
+
+# NOTE: :)
+```
+
 
 
