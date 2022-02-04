@@ -373,3 +373,20 @@ from App.Controllers.IndexController import IndexController
 
 # NOTE: :)
 ```
+
+
+#### 5.5 Load and display the courses
+
+```py
+
+# Files: new/changed
+        modified:   App/Controllers/CursosController.py
+        modified:   App/Models/Cursos_models.py
+        modified:   README.md
+        new file:   media/images/curso/Android3.png
+        new file:   media/images/curso/Python-portada.png
+        new file:   media/images/curso/System3.png
+        modified:   templates/views/cursos/cursos.html
+
+# NOTE: :)
+```
