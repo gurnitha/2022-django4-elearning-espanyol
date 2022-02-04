@@ -303,6 +303,27 @@ from App.Controllers.IndexController import IndexController
 ```
 
 
+### 4. DJANGO MODEL
+-------------------
+
+
+#### 4.1 Create models: Categorias, Cursos
+
+```py
+
+# Files: new/changed
+
+        modified:   App/admin.py
+        new file:   App/migrations/0001_initial.py
+        modified:   App/models.py
+        modified:   README.md
+        modified:   Usuarios/settings.py
+        new file:   images/curso/mobile-5.PNG
+
+# NOTE: :)
+```
+
+
 
 
 
