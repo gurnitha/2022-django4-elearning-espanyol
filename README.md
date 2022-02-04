@@ -420,3 +420,16 @@ from App.Controllers.IndexController import IndexController
 
 # NOTE: :)
 ```
+
+
+#### 5.8 Add template to course details page
+
+```py
+
+# Files: new/changed
+        modified:   static/css/style.css
+        modified:   templates/views/cursos/cursos.html
+        modified:   templates/views/cursos/details.html
+
+# NOTE: :)
+```
