@@ -7,9 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Usuarios</title>
     {% load static %}
+
+    <!-- Css -->
     <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/sheetslider.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/custom.css' %}">
+
+    <!-- Javascrips -->
+    <script src="{% static 'js/jquery-3.3.1.min.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/bootstrap.bundle.js' %}" type="text/javascript"></script>
 </head>
 
 <body>
@@ -32,7 +39,7 @@
                             <a class="nav-link text-dark">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark">About</a>
+                            <a class="nav-link text-dark" href="{% url 'about' %}">About</a>
                         </li>
                     </ul>
                 </div>
