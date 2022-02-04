@@ -5,7 +5,7 @@ from django.contrib import admin
 from django.urls import path
 
 # Locals
-from Usuarios.Controllers.IndexController import IndexController
+from App.Controllers.IndexController import IndexController
 
 urlpatterns = [
 

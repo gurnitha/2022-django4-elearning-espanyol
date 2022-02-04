@@ -245,5 +245,37 @@ No changes detected
 # NOTE: :)
 ```
 
+#### 3.9 Create a new app 'App'
+
+```py
+
+# 1. Create a new app
+(elearning-esp) λ python manage.py startapp App
+
+# 2. Move Controller to App
+(elearning-esp) λ python manage.py migrate
+
+# 3. Modified the urls
+from App.Controllers.IndexController import IndexController
+
+# 4. Testing runserver
+
+:)
+
+# Files: new/changed
+
+        renamed:    Usuarios/Controllers/IndexController.py -> App/Controllers/IndexController.py
+        new file:   App/__init__.py
+        new file:   App/admin.py
+        new file:   App/apps.py
+        new file:   App/migrations/__init__.py
+        new file:   App/models.py
+        new file:   App/tests.py
+        new file:   App/views.py
+        modified:   README.md
+        modified:   Usuarios/urls.py
+# NOTE: :)
+```
+
 
 
