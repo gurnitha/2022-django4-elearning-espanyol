@@ -187,5 +187,42 @@ See the repository
 # NOTE: :)
 ```
 
+#### 3.7 Setting up database
+
+```py
+
+# 1. Install mysql driver
+(elearning-esp) λ pip install mysqlclient
+
+# 2. Install django environ
+(elearning-esp) λ pip install django-environ
+
+# 3. Create and setup .env
+Can not view it here 
+
+# 4. Create and connect db
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': env('DATABASE_NAME'),
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD'),
+        'HOST': 'localhost',
+        'PORT': 3306
+    }
+}
+
+# Files: new/changed
+
+        modified:   .gitignore
+        modified:   Usuarios/settings.py
+        new file:   static/images/Python-portada.png
+        new file:   templates/404.html
+        modified:   templates/views/default/header.html
+        modified:   templates/views/index/index.html
+
+# NOTE: :)
+```
+
 
 
