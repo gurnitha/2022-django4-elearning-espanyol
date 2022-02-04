@@ -447,3 +447,16 @@ from App.Controllers.IndexController import IndexController
 
 # NOTE: :)
 ```
+
+
+#### 5.10 More on detail course
+
+```py
+
+# Files: new/changed
+        modified:   App/Controllers/CursosController.py
+        modified:   App/Models/Cursos_models.py
+        modified:   README.md
+
+# NOTE: :)
+```

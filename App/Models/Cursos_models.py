@@ -12,12 +12,8 @@ class Cursos_models():
         cursos = Cursos.objects.order_by('Nombre')
         return cursos 
 
-    # def getcurso(idcurso):
-    #     curso = Cursos.objects.get(CursoId=idcurso) 
-    #     return curso 
-        
     def getcurso(idcurso):
         curso = Cursos.objects.filter(CursoId=idcurso) 
         for item in curso:
             categoria = Categorias.objects.get(CategoriaID=item.CategoriaID.CategoriaID)
-        return [item,categoria] 
+        return [item,categoria]  
