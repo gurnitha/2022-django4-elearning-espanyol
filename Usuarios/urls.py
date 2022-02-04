@@ -20,6 +20,7 @@ urlpatterns = [
 
     # Cursos
     path('cursos', CursosController.index, name='cursos'),
+    path('details/<int:cursoid>/',CursosController.details, name='details'),
 
     # Admin
     path('admin/', admin.site.urls, name='login'),

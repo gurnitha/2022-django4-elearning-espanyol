@@ -390,3 +390,18 @@ from App.Controllers.IndexController import IndexController
 
 # NOTE: :)
 ```
+
+
+#### 5.6 Load and display course details
+
+```py
+
+# Files: new/changed
+        modified:   App/Controllers/CursosController.py
+        modified:   README.md
+        modified:   Usuarios/urls.py
+        modified:   templates/views/cursos/cursos.html
+        new file:   templates/views/cursos/details.html
+
+# NOTE: :)
+```
