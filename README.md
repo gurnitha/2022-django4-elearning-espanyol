@@ -85,3 +85,25 @@ http://127.0.0.1:8000/
         new file:   Usuarios/wsgi.py
         new file:   manage.py
 ```
+
+
+### 3. TURNING DJANGO TO REAL MVC - CREATING LOGIN SYSTEM
+----------------------------------------------------------
+
+
+#### 3.1 Create IndexController
+
+```py
+# 1. Create folder
+λ mkdir Usuarios\Controllers
+
+# 2. Create file
+λ touch Usuarios\Controllers\IndexController.py
+
+# Files: new/changed
+        modified:   README.md
+        new file:   Usuarios/Controllers/IndexController.py
+        modified:   Usuarios/urls.py
+
+# NOTE: :)
+```
