@@ -17,4 +17,6 @@ class CursosController():
 
 
     def details(request,cursoid):
-        return render(request, 'views/cursos/details.html')
+        objects =  Cursos_models.getcurso(cursoid)
+        context = {'curso': objects}
+        return render(request, 'views/cursos/details.html',context)

@@ -405,3 +405,18 @@ from App.Controllers.IndexController import IndexController
 
 # NOTE: :)
 ```
+
+
+#### 5.7 Add html to course details page
+
+```py
+
+# Files: new/changed
+        modified:   App/Controllers/CursosController.py
+        modified:   App/Models/Cursos_models.py
+        modified:   README.md
+        modified:   templates/views/cursos/cursos.html
+        modified:   templates/views/cursos/details.html
+
+# NOTE: :)
+```
