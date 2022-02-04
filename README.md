@@ -360,3 +360,16 @@ from App.Controllers.IndexController import IndexController
 
 # NOTE: :)
 ```
+
+
+#### 5.2 Create App/Models/Cursos_models.py 
+
+```py
+
+# Files: new/changed
+        new file:   App/Models/Cursos_models.py
+        modified:   App/admin.py
+        modified:   README.md
+
+# NOTE: :)
+```
