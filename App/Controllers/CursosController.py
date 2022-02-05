@@ -3,9 +3,11 @@
 # Django modules
 from django.shortcuts import render, HttpResponse
 from django.http import HttpResponseRedirect
+from datetime import date
 
 # Locals
 from App.Models.Cursos_models import Cursos_models
+from ..models import Inscripcion
 
 # Define your controller here.
 
@@ -20,14 +22,29 @@ class CursosController():
     def details(request,cursoid):
         objects =  Cursos_models.getcurso(cursoid)
         context = {'curso': objects}
-        # context = {'curso': objects[0],'categoria': objects[1]}
         return render(request, 'views/cursos/details.html',context)
+
+
+    # def obtener_curso(request):
+    #     if request.method=='POST':
+    #         if request.user.is_authenticated:
+    #              data=request.POST['cursoid']
+    #              return HttpResponse('<h1>Alex Pagoada</h1>%s' % data)
+    #         else:
+    #             return HttpResponseRedirect('admin')
 
 
     def obtener_curso(request):
         if request.method=='POST':
             if request.user.is_authenticated:
-                 data=request.POST['cursoid']
-                 return HttpResponse('<h1>Alex Pagoada</h1>%s' % data)
+                cursoid=request.POST['cursoid']
+                user = request.user.id
+                model = Inscripcion(
+                    CursoId=cursoid,
+                    EstudianteID=user,
+                    Fecha=date.today()
+                )
+                model.save()
+                return HttpResponse('<h1>Alex Pagoada</h1>%s' % data)
             else:
                 return HttpResponseRedirect('admin')

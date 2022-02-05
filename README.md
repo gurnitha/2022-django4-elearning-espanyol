@@ -534,3 +534,19 @@ from App.Controllers.IndexController import IndexController
 1. Register worked, but user now showing up in admin panel
 :)
 ```
+
+#### 6.5 Register a new user part 4 - Register a new user as staff
+```py
+
+# Files: new/changed
+        modified:   App/Controllers/CursosController.py
+        modified:   App/Controllers/UserController.py
+        new file:   App/migrations/0002_inscripcion_alter_categorias_descripcion_and_more.py
+        modified:   App/models.py
+        modified:   README.md
+        modified:   templates/views/user/register.html
+
+# NOTE: 
+1. Register worked, but obtener still showing error
+:)
+```
