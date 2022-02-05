@@ -9,6 +9,7 @@ from django.conf.urls.static import static
 # Locals
 from App.Controllers.IndexController import IndexController
 from App.Controllers.CursosController import CursosController
+from App.Controllers.UserController import UserController
 
 urlpatterns = [
 
@@ -18,8 +19,11 @@ urlpatterns = [
     path('', IndexController.index, name='index'),
     path('about/', IndexController.about, name='about'),
 
+    # Users registration
+    path('register/', UserController.register, name='register'),
+
     # Cursos
-    path('cursos', CursosController.index, name='cursos'),
+    path('cursos/', CursosController.index, name='cursos'),
     path('details/<int:cursoid>/',CursosController.details, name='details'),
     path('obtener', CursosController.obtener_curso, name='obtener'),
     

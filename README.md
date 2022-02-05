@@ -491,3 +491,19 @@ from App.Controllers.IndexController import IndexController
 
 # NOTE: :)
 ```
+
+#### 6.2 Register a new user part 1 - Create UserController, show and hide menu
+
+```py
+
+# Files: new/changed
+        new file:   App/Controllers/UserController.py
+        modified:   README.md
+        modified:   Usuarios/urls.py
+        modified:   templates/views/default/header.html
+        new file:   templates/views/user/register.html
+
+# NOTE: 
+1. Obtener does not work again
+:)
+```
