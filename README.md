@@ -521,3 +521,16 @@ from App.Controllers.IndexController import IndexController
 1. Could not register a user yet
 :)
 ```
+
+#### 6.4 Register a new user part 3 - Create SignUpForm model, and use it in register template
+```py
+
+# Files: new/changed
+        modified:   App/Controllers/UserController.py
+        modified:   README.md
+        modified:   templates/views/user/register.html
+
+# NOTE: 
+1. Register worked, but user now showing up in admin panel
+:)
+```
