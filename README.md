@@ -474,3 +474,20 @@ from App.Controllers.IndexController import IndexController
 
 # NOTE: :)
 ```
+
+
+### 6. USERS REGISTRATION
+-------------------------
+
+
+#### 6.1 Login as admin
+
+```py
+
+# Files: new/changed
+        modified:   App/Controllers/CursosController.py
+        modified:   README.md
+        modified:   Usuarios/urls.py
+
+# NOTE: :)
+```
