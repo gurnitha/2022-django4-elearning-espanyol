@@ -507,3 +507,17 @@ from App.Controllers.IndexController import IndexController
 1. Obtener does not work again
 :)
 ```
+
+#### 6.3 Register a new user part 2 - Create SignUpForm model, and use it in register template
+```py
+
+# Files: new/changed
+        modified:   App/Controllers/UserController.py
+        new file:   App/Models/User_forms.py
+        modified:   README.md
+        modified:   templates/views/user/register.html
+
+# NOTE: 
+1. Could not register a user yet
+:)
+```
